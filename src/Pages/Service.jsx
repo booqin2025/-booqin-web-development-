@@ -69,7 +69,7 @@ function Service() {
   ];
   return (
     <>
-      <div>
+      <div className="mb-20 mt-3">
         {ServicesCard.map((card, index) => (
           <Card
             key={index}
